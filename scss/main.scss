@@ -8,6 +8,8 @@
 body {
   @include background;
   background: $primary-color;
+  background-size: contain;
+  background-repeat: no-repeat;
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
