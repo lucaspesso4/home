@@ -79,7 +79,7 @@ main {
   grid-gap: 30px;
   grid-template-areas: 
   'bioimage bio bio'
-  'job1 job2 job3';
+  'frontend backend database';
   grid-template-columns: repeat(3, 1fr);
 
   .bio-img {
@@ -95,20 +95,24 @@ main {
     grid-area: bio;
     font-size: 1.5rem;
   }
-  
-  .job-1 {
-    grid-area: job1;
+
+  .bio > p {
+    font-size: 1rem;
   }
   
-  .job-2 {
-    grid-area: job2;
+  .front-end-skills {
+    grid-area: frontend;
   }
   
-  .job-3 {
-    grid-area: job3;
+  .back-end-skills {
+    grid-area: backend;
   }
   
-  .job {
+  .database-skills {
+    grid-area: database;
+  }
+  
+  .pro-skill {
     background: lighten($primary-color , 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
